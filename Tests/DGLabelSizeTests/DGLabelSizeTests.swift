@@ -27,7 +27,7 @@ final class DGLabelSizeTests: XCTestCase {
     }
     
     func testDGLabelSizeWidth() {
-        XCTAssertEqual(DGLabelSize.width(maxHeight: maxHeight, maxWidth: maxWidth, label1), 73)
+        XCTAssertEqual(DGLabelSize.width(maxHeight: maxHeight, maxWidth: maxWidth, label1), 74)
         XCTAssertEqual(DGLabelSize.width(maxHeight: maxHeight, maxWidth: maxWidth, label2), 350)
         
     }
