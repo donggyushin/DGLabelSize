@@ -6,6 +6,7 @@ final class DGLabelSizeTests: XCTestCase {
     private let label1: UILabel = {
         let view = UILabel()
         view.text = "short text"
+        view.font = .systemFont(ofSize: 17)
         return view
     }()
     
@@ -13,6 +14,7 @@ final class DGLabelSizeTests: XCTestCase {
         let view = UILabel()
         view.text = "long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text "
         view.numberOfLines = 0
+        view.font = .systemFont(ofSize: 17)
         return view
     }()
     
@@ -25,7 +27,7 @@ final class DGLabelSizeTests: XCTestCase {
     }
     
     func testDGLabelSizeWidth() {
-        XCTAssertEqual(DGLabelSize.width(maxHeight: maxHeight, maxWidth: maxWidth, label1), 74)
+        XCTAssertEqual(DGLabelSize.width(maxHeight: maxHeight, maxWidth: maxWidth, label1), 73)
         XCTAssertEqual(DGLabelSize.width(maxHeight: maxHeight, maxWidth: maxWidth, label2), 350)
         
     }
