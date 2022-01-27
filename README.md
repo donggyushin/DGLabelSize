@@ -2,7 +2,7 @@
 Functions that calculate the size of uilabel based on different string lengths. 
 
 <div>
-<img src="https://user-images.githubusercontent.com/34573243/151296002-cb39545a-f3a3-4dbf-aba3-de417903ebe7.png" width=250 />
+<img src="https://user-images.githubusercontent.com/34573243/151298303-e3972d96-7f76-4606-9ae8-8b7f315020d6.png" width=250 />
 </div>
 
 ## Requirements
