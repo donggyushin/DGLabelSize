@@ -20,7 +20,7 @@ File > Add Packages > https://github.com/donggyushin/DGLabelSize
 
 ### CocoaPod
 ```
-pod 'DGLabelSize', :git => 'https://github.com/donggyushin/DGLabelSize'
+pod 'DGLabelSize', :git => 'https://github.com/donggyushin/DGLabelSize.git'
 ```
 
 ## Usage
